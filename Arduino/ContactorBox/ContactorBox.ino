@@ -8,7 +8,7 @@ void ms1000Callback();
 Task ms10Task(10, TASK_FOREVER, &ms10Callback);
 Task ms1000Task(1000, TASK_FOREVER, &ms1000Callback);
 
-byte vag_cnt0ba = 0x0;
+byte vag_cnt0ba = 0x07;
 
 bool preCharge = false;
 bool mainPositiveContactor = false;
